@@ -1,1 +1,8 @@
-
+name: AnnouncementsPlugin
+version: 1.0
+main: com.ponkstars.announcementsplugin.Main
+api-version: 1.18
+commands:
+  announce:
+    description: Sends an announcement to the server
+    usage: /announce <message>
